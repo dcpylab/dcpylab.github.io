@@ -1,0 +1,53 @@
+/* Pull in Google Fonts */
+@import 'https://fonts.googleapis.com/css?family=Cutive|Raleway';
+
+h1 {
+  font-family: "Cutive", serif;
+  font-size: 60px;
+   vertical-align: bottom;
+}
+
+body {
+  height: 100vh;
+  background: url("/img/dc-flag.png") repeat-y;
+  background-size: contain;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  color: #111;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 8px;
+  font-size: 16px;
+  color: #666;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.white-background {
+  background-color: rgba(255, 255, 255, 0.66);
+}
+
+.centered {
+  text-align: center;
+}
+
+.padded {
+  padding: 8px;
+}
+
+h1.padded {
+  padding: 24px 2px 8px 2px;
+}
+
+@media(min-width: 900px) {
+    .offset-left {
+        margin-left: 40%;
+        max-width: 50%;
+        min-width: 350px;
+    }
+}
